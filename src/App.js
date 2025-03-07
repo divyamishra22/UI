@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import EmailChannel from "./Pages/Userinteg"
+import Page from "./Pages/Social"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-      <Route path="/view" element={< EmailChannel/>} /> 
+      <Route path="/view" element={< Page/>} /> 
       </Routes>
       </Router>
     </div>
