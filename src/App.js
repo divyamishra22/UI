@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LeadDetails from "./Pages/Check.js"
+import UserManagement from "./Pages/User"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-      <Route path="/view" element={< LeadDetails/>} /> 
+      <Route path="/view" element={< UserManagement/>} /> 
       </Routes>
       </Router>
     </div>
