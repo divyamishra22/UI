@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./Componenets/Navbar"
+import DashboardLayout from "./Pages/plus"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-      <Route path="/view" element={< Navbar/>} /> 
+      <Route path="/view" element={< DashboardLayout/>} /> 
       </Routes>
       </Router>
     </div>
