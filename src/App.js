@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Page from "./Pages/Social"
+import LeadsTable from "./Pages/Lead"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-      <Route path="/view" element={< Page/>} /> 
+      <Route path="/view" element={< LeadsTable/>} /> 
       </Routes>
       </Router>
     </div>
