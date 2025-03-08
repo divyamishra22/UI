@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Sidebar from "./Componenets/Sidebar"
+import Navbar from "./Componenets/Navbar"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-      <Route path="/view" element={< Sidebar/>} /> 
+      <Route path="/view" element={< Navbar/>} /> 
       </Routes>
       </Router>
     </div>
