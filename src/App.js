@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import PaymentCalculator from "./Componenets/PaymentModal"
+import Dashboard from "./Pages/Glance"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-      <Route path="/view" element={< PaymentCalculator/>} /> 
+      <Route path="/view" element={< Dashboard/>} /> 
       </Routes>
       </Router>
     </div>
