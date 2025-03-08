@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Dashboard from "./Pages/Glance"
+import Table from "./Pages/Inventory"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-      <Route path="/view" element={< Dashboard/>} /> 
+      <Route path="/view" element={< Table/>} /> 
       </Routes>
       </Router>
     </div>
