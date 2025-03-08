@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SettingsPage from "./Pages/Account"
+import Sidebar from "./Componenets/Sidebar"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-      <Route path="/view" element={< SettingsPage/>} /> 
+      <Route path="/view" element={< Sidebar/>} /> 
       </Routes>
       </Router>
     </div>
