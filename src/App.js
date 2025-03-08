@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LeadsTable from "./Pages/Lead"
+import SearchBar from "./Componenets/Search"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-      <Route path="/view" element={< LeadsTable/>} /> 
+      <Route path="/view" element={< SearchBar/>} /> 
       </Routes>
       </Router>
     </div>
