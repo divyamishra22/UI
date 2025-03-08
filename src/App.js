@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Table from "./Pages/Inventory"
+import SettingsPage from "./Pages/Account"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-      <Route path="/view" element={< Table/>} /> 
+      <Route path="/view" element={< SettingsPage/>} /> 
       </Routes>
       </Router>
     </div>
