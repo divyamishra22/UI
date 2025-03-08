@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SearchBar from "./Componenets/Search"
+import CustomCalendar from "./Componenets/Calendar"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-      <Route path="/view" element={< SearchBar/>} /> 
+      <Route path="/view" element={< CustomCalendar/>} /> 
       </Routes>
       </Router>
     </div>
