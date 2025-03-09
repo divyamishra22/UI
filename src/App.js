@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import DashboardLayout from "./Pages/plus"
+import Layout from "./Pages/Plus2"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-      <Route path="/view" element={< DashboardLayout/>} /> 
+      <Route path="/view" element={< Layout/>} /> 
       </Routes>
       </Router>
     </div>
