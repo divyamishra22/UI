@@ -24,14 +24,15 @@ const users = [
 
 const UserManagement = () => {
   return (
-    <div className="p-6">
+    <div className="p-6 bg-white">
+      <div className="flex" >
       <h1 className="text-2xl font-semibold text-gray-800">User Management</h1>
       <p className="text-red-500 text-sm mt-1">NOTE: This section is only available to Account Owner and ZOP Staff.</p>
       
       <div className="flex justify-end mt-4">
-        <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">+ Add User</button>
+        <button className="bg-white text-blue px-4 py-2 rounded-md hover:bg-blue-600">+ Add User</button>
       </div>
-      
+      </div>
       <div className="mt-4 overflow-x-auto">
         <table className="w-full border-collapse shadow-lg rounded-lg">
           <thead>
